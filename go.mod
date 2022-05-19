@@ -2,6 +2,8 @@ module github.com/CosmosContracts/juno
 
 go 1.17
 
+require github.com/patrickmn/go-cache v2.1.0+incompatible
+
 require (
 	github.com/CosmWasm/wasmd v0.27.0
 	github.com/cosmos/cosmos-sdk v0.45.4
